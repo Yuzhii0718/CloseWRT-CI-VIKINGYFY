@@ -33,17 +33,17 @@ on:
         type: string
       GFW:
         description: 'GFW 开关'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       USB:
         description: 'USB 开关'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       MMC:
         description: 'MMC 开关'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       PACKAGE:
@@ -51,7 +51,7 @@ on:
         type: string
       TEST:
         description: '仅输出配置文件，不编译固件。'
-        default: 'true'
+        default: true
         required: true
         type: boolean
 
@@ -89,6 +89,8 @@ jobs:
       WRT_SOURCE: ${{inputs.SOURCE}}
       #插件调整
       WRT_PACKAGE: ${{inputs.PACKAGE}}
+      #GFW 开关
+      WRT_GFW: ${{inputs.GFW}}
       #USB 选项
       WRT_USB: ${{inputs.USB}}
       #MMC 开关

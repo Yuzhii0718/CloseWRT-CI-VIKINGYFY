@@ -14,27 +14,27 @@ on:
     inputs:
       GFW:
         description: 'GFW 开关'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       USB:
         description: 'USB 开关'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       MMC:
         description: 'MMC 开关'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       MT7981_BUILD:
         description: '编译 MT7981 平台'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       MT7986_BUILD:
         description: '编译 MT7986 平台'
-        default: 'true'
+        default: true
         required: true
         type: boolean
       MT7981_CONFIG:
@@ -51,12 +51,12 @@ on:
         type: string
       TEST:
         description: '仅输出配置文件，不编译固件'
-        default: 'false'
+        default: false
         required: false
         type: boolean
       CLEANUP:
         description: '删除旧的 Release 和 Workflow'
-        default: 'false'
+        default: false
         required: false
         type: boolean
 

@@ -1,3 +1,4 @@
+#依赖-DISK
 CONFIG_PACKAGE_luci-app-partexp=y
 CONFIG_PACKAGE_luci-app-samba4=y
 
