@@ -6,6 +6,10 @@ CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_rg-x60-new=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_rg-x60-new-expand=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_rg-x60-new-stock=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_rg-x60-new-ubootmod=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_ew-6000gx-pro=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_ew-6000gx-pro-expand=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_ew-6000gx-pro-stock=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_ruijie_ew-6000gx-pro-ubootmod=y
 #必选组件
 CONFIG_first_card_name="MT7986"
 CONFIG_MTK_CHIP_MT7986=y
